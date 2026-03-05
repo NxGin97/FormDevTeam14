@@ -21,6 +21,7 @@ export const employeeSchema = Yup.object().shape({
   // FORCE: ###-###-###
   socialInsuranceNumber: Yup.string()
     .required("Social Insurance Number is required.")
+    .length(11, "SIN must be 6 digits long with dashes in between")
     .matches(/^\d{3}-\d{3}-\d{3}$/, "SIN must be ###-###-###."),
 
   position: Yup.string()
