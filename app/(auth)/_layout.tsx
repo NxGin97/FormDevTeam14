@@ -1,10 +1,7 @@
-import { Tabs } from "expo-router";
+import { Stack } from "expo-router";
 
-export default function SignTabs() {
+export default function Layout() {
   return (
-    <Tabs>
-      <Tabs.Screen name="sign-in" options={{ title: "Sign In" }} />
-      <Tabs.Screen name="sign-up" options={{ title: "Sign Up" }} />
-    </Tabs>
+    <Stack screenOptions={{ headerShown: false }} />
   );
 }

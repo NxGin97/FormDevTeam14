@@ -11,8 +11,7 @@ export function FormErrorText({ message }: Props) {
 
 const styles = StyleSheet.create({
   text: {
-    marginTop: 6,
-    color: "crimson",
-    fontSize: 14,
+    color: "#390c4d",
+    fontSize: 12,
   },
 });
