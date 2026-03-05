@@ -16,7 +16,7 @@ export default function LoginSuccessScreen() {
       </Pressable>
       <Pressable onPress={() => router.push("/(auth)/sign-in")}>
         <Text style={{ color: "#390c4d", textDecorationLine: "underline" }}>
-          Back to Login
+          Back to Log in
         </Text>
       </Pressable>
       <Pressable

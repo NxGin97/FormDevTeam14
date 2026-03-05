@@ -239,7 +239,7 @@ export default function EmployeeInfo() {
           )}
         </Formik>
         <Pressable onPress={() => router.push("/(auth)/sign-in")}>
-          <Text style={styles.backToLogin}>Back to Login</Text>
+          <Text style={styles.backToLogin}>Back to Log in</Text>
         </Pressable>
       </View>
     </SafeAreaView>
