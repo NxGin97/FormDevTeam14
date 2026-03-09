@@ -7,7 +7,7 @@ export default function LoginSuccessScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Successfully Submitted!</Text>
+      <Text style={styles.title}>Successfully submitted!</Text>
       <Pressable
         style={styles.button}
         onPress={() => router.replace("/(employeeInfo)")}

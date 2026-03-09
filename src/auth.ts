@@ -41,6 +41,7 @@ try {
 }
 };
 
+//this is just used to clear the AsyncStorage
 export const logoutUser = async () => {
   try {
     await AsyncStorage.removeItem("userAccount");
